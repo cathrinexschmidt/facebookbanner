@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+}
+
+.intro {
+  height: 98px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  z-index:-1;
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+}
+
+.intro .intro-header {
+  border-radius: 8px;
+  padding: 32px 40px;
+}
+.intro h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: orange;
+}
+.intro p {
+  font-size: 10px;
+}
