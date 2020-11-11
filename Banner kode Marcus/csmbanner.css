@@ -1,14 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body {
   color: #fff;
 }
 
 .intro {
-  height: 98px;
+  height: 90px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -26,15 +25,3 @@ body {
   transition: opacity 0.75s ease-in-out;
 }
 
-.intro .intro-header {
-  border-radius: 8px;
-  padding: 32px 40px;
-}
-.intro h1 {
-  font-size: 20px;
-  margin-bottom: 5px;
-  color: orange;
-}
-.intro p {
-  font-size: 10px;
-}
