@@ -16,14 +16,15 @@ var images = [image1, image2, image3, image4, image5,];
 //her generere den et div som indenholder img+h3 tag for hvert billed i array
 window.onload = function () {
 
-    //for loop - 21-74
 
     // for loop der kører for hvert billed i array'et "images"
     for (i = 0; i < images.length; i++) {
+
         //her laver den div'en
         //i henter billederne fra arrayet, nr = hele objektet fra arrayet
         //nr er ikke nr, men hvor vi henter et objekt i array
         var nr = images[i];
+
         // laver div tagget - div. = (variabel) = div tag navn
         var div1 = document.createElement("div");
 
@@ -34,6 +35,7 @@ window.onload = function () {
 
         //fortæller hvor diverne skal ligge 
         document.getElementById("imageSlides").appendChild(div1);
+
         // her sætter den det første billed i slideren til opacity 1
         //operators (- og + og = og &)
         if (i == 0) {
@@ -42,6 +44,7 @@ window.onload = function () {
 
         //her laver den Img + H3 tag som ligger i div
         if (i == i) {
+
             //img
             var img1 = document.createElement("img");
 
